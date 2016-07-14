@@ -5,6 +5,7 @@
 body {
   font-family: 'Fira Sans';
   background-color: white;
+  margin-bottom: 0px;
 }
 
 #sidebar {
@@ -47,7 +48,7 @@ a {
   left: 250px;
 }
 
-.title {
+#title {
   margin: 0px;
   float: left;
 }
@@ -57,7 +58,8 @@ a {
   position: relative;
   height: 100%;
   width: 768px;
-  border-width: 1px;
+  border-width: 2px;
+  overflow: hidden;
   border-color: black;
   border-style: solid;
   background-color: #BEBEBE;
@@ -69,4 +71,20 @@ a {
 
 .header-link {
   border-bottom: 0px;
+}
+
+#main-content {
+  width: 648px;
+  position: absolute;
+  left: 8px;
+  top: 10px;
+}
+
+#main-content-container {
+  border-left: 2px black solid;
+  position: absolute;
+  left: 100px;
+  top: 64px;
+  width: 668px;
+  height: 100%;
 }
