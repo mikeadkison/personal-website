@@ -22,8 +22,8 @@ body {
 #header {
   position: absolute;
   top: 0px;
-  left: 0px;
-  padding-left: 120px;
+  left: 100px;
+  padding-left: 20px;
   background-color: #291F60;
   height: 60px;
   width: 648px;
@@ -42,12 +42,12 @@ a {
 
 #links {
   position: absolute;
-  float: right;
   color: black;
-  float: right;
+  bottom: 0px;
+  left: 250px;
 }
 
-#title {
+.title {
   margin: 0px;
   float: left;
 }
@@ -67,6 +67,6 @@ a {
   margin-top: 65px;
 }
 
-#header-link {
+.header-link {
   border-bottom: 0px;
 }
