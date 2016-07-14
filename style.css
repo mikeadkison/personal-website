@@ -1,0 +1,72 @@
+/*
+  Color Palette:
+  http://paletton.com/#uid=31P1e0kqprfgbzFl8tjsJlOxCgW
+*/
+body {
+  font-family: 'Fira Sans';
+  background-color: white;
+}
+
+#sidebar {
+  position: absolute;
+  top: 0px;
+  padding-top: 0px;
+  height: 100%;
+  left: 0;
+  width: 100px;
+  background-color: #291F60;
+  display: inline;
+  text-align: center;
+}
+
+#header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-left: 120px;
+  background-color: #291F60;
+  height: 60px;
+  width: 648px;
+  border-bottom: solid 4px black;
+  border-left: solid 0px black;
+  border-right: solid 0px black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  border-bottom: solid 1px #0F536D;
+  width: 100%;
+}
+
+#links {
+  position: absolute;
+  float: right;
+  color: black;
+  float: right;
+}
+
+#title {
+  margin: 0px;
+  float: left;
+}
+
+#wrapper {
+  margin: 0 auto;
+  position: relative;
+  height: 100%;
+  width: 768px;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  background-color: #BEBEBE;
+}
+
+#sidebar-content {
+  margin-top: 65px;
+}
+
+#header-link {
+  border-bottom: 0px;
+}
