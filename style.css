@@ -4,8 +4,8 @@
 */
 body {
   font-family: 'Fira Sans';
-  background-color: white;
   margin-bottom: 0px;
+  background: #BEBEBE;
 }
 
 #sidebar {
@@ -23,11 +23,11 @@ body {
 #header {
   position: absolute;
   top: 0px;
-  left: 100px;
+  left: 98px;
   padding-left: 20px;
   background-color: #291F60;
   height: 60px;
-  width: 648px;
+  width: 650px;
   border-bottom: solid 4px black;
   border-left: solid 0px black;
   border-right: solid 0px black;
@@ -37,7 +37,6 @@ body {
 a {
   text-decoration: none;
   color: white;
-  border-bottom: solid 1px #0F536D;
   width: 100%;
 }
 
@@ -62,11 +61,14 @@ a {
   overflow: hidden;
   border-color: black;
   border-style: solid;
-  background-color: #BEBEBE;
+  background-color: white;
 }
 
 #sidebar-content {
-  margin-top: 65px;
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 100%;
 }
 
 .header-link {
@@ -74,9 +76,9 @@ a {
 }
 
 #main-content {
-  width: 648px;
+  width: 638px;
   position: absolute;
-  left: 8px;
+  left: 16px;
   top: 10px;
 }
 
@@ -87,4 +89,23 @@ a {
   top: 64px;
   width: 668px;
   height: 100%;
+}
+
+.sidebar-button {
+  border-top: 2px black solid;
+  border-bottom: 2px black solid;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  margin-top: -1px;
+}
+
+.sidebar-button:hover {
+  background-color: black;
+}
+
+.main-link {
+  color: blue;
 }
